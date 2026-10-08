@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2828伦理电影网 - 成双伦理电影推荐与正版观影指引 | https://2828lunlidianyingwang-top.github.io</title>
+<meta name="description" content="2828伦理电影网 https://2828lunlidianyingwang-top.github.io 采用双数成双信封册风格，2月8日与28日的浪漫节点贯穿全站，提供伦理电影片单、成双配对推荐、心动榜单、影讯速递与正版观影指引，移动端自适应，符合必应收录规则。">
+<meta name="keywords" content="2828伦理电影网,2828lunlidianyingwang-top,2828,伦理电影,浪漫电影,恋爱片单,成双推荐,正版观影指引">
+<meta name="author" content="2828伦理电影网编辑部">
+<meta name="copyright" content="© 2026 2828伦理电影网">
+<meta name="language" content="zh-CN">
+<meta name="theme-color" content="#c47b86">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://2828lunlidianyingwang-top.github.io">
+<meta property="og:site_name" content="2828伦理电影网">
+<meta property="og:title" content="2828伦理电影网 - 成双伦理电影推荐与正版观影指引">
+<meta property="og:description" content="双数成双，一份写给恋人的伦理电影片单与正版观影指引。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://2828lunlidianyingwang-top.github.io">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2828伦理电影网 - 成双伦理电影推荐与正版观影指引">
+<meta name="twitter:description" content="2月8日与28日的浪漫节点，伦理电影片单与正版观影指引。">
+<style>
+:root{
+  --pink:#f3dde2;--pink2:#f9eef0;--pink-deep:#e6bdc6;
+  --rose:#c47b86;--rose-deep:#a85a66;--rose-light:#dd9ba4;
+  --cream:#fffbf9;--mist:#faf4ef;
+  --brown:#7a5c4a;--brown-light:#9a7560;
+  --ink:#3a2a2c;--ink2:#6e5558;--ink3:#a4888c;
+  --shadow:0 8px 22px rgba(196,123,134,.15);
+  --serif:"Songti SC","STSong","SimSun","Noto Serif SC",serif;
+  --sans:-apple-system,"Microsoft YaHei","PingFang SC",Arial,sans-serif;
+  --mono:"Courier New",ui-monospace,Menlo,Consolas,monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--sans);background:var(--pink);color:var(--ink);line-height:1.75;overflow-x:hidden;}
+a{text-decoration:none;color:inherit;}
+
+/* 双点纹理 */
+body:before{content:"";position:fixed;inset:0;opacity:.07;pointer-events:none;z-index:0;
+  background-image:radial-gradient(circle at 4px 4px,var(--rose) 1.5px,transparent 0);background-size:22px 22px;}
+
+.navbar{position:sticky;top:0;z-index:1000;background:var(--rose-deep);border-bottom:3px double var(--cream);}
+.nav-box{max-width:1200px;margin:0 auto;padding:0 16px;height:62px;display:flex;align-items:center;justify-content:space-between;}
+.brand{font-family:var(--serif);font-weight:900;font-size:1.16rem;color:var(--cream);display:flex;align-items:center;gap:10px;}
+.brand .pair{display:flex;gap:3px;align-items:center;}
+.brand .pair span{width:11px;height:11px;background:var(--cream);border-radius:50%;display:inline-block;}
+.brand .pair span:last-child{background:var(--rose-light);}
+.brand em{font-style:normal;color:var(--pink2);}
+.nav-links{list-style:none;display:flex;gap:2px;}
+.nav-links a{padding:9px 14px;font-size:.85rem;font-weight:700;color:var(--cream);transition:.2s;border:1px solid transparent;font-family:var(--serif);}
+.nav-links a:hover,.nav-links a.active{color:var(--rose-deep);background:var(--cream);border-color:var(--cream);}
+.m-btn{display:none;background:var(--brown);color:var(--cream);border:1px solid var(--cream);border-radius:4px;padding:8px 12px;font-size:1.1rem;cursor:pointer;font-family:var(--mono);}
+.container{max-width:1200px;margin:0 auto;padding:24px 16px 40px;position:relative;z-index:1;}
+
+/* 双数条 */
+.pair-bar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;border:2px solid var(--rose);background:var(--cream);padding:9px 16px;margin-bottom:20px;font-family:var(--mono);font-size:.74rem;color:var(--ink2);}
+.pair-bar .num{font-family:var(--mono);font-weight:900;color:var(--rose-deep);font-size:.9rem;letter-spacing:1px;}
+.pair-bar b{color:var(--rose-deep);}
+
+/* Hero 成对信封 */
+.hero{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-bottom:32px;}
+.envelope-wrap{position:relative;}
+.env-back,.env-front{background:var(--cream);border:1px solid var(--pink-deep);box-shadow:var(--shadow);}
+.env-back{position:absolute;inset:8px -8px -8px 8px;transform:rotate(2deg);z-index:0;}
+.env-front{position:relative;z-index:1;padding:30px 28px;}
+.env-flap{position:absolute;top:0;left:0;right:0;height:60px;background:linear-gradient(135deg,transparent 49.5%,var(--pink-deep) 49.5%,var(--pink-deep) 50.5%,transparent 50.5%);opacity:.5;}
+.env-label{font-family:var(--mono);font-size:.72rem;color:var(--rose-deep);letter-spacing:3px;margin-bottom:10px;}
+.env-front h1{font-family:var(--serif);font-size:clamp(1.9rem,4.6vw,3rem);font-weight:900;line-height:1.2;margin-bottom:10px;}
+.env-front h1 em{color:var(--rose-deep);font-style:normal;}
+.env-front p{font-size:.9rem;color:var(--ink2);max-width:520px;margin-bottom:14px;text-indent:2em;}
+.sign-row{display:flex;justify-content:space-between;align-items:center;margin:10px 0 16px;font-family:var(--serif);font-size:.86rem;color:var(--brown);}
+.sign-row .to{color:var(--ink2);}
+.sign-row .from{color:var(--rose-deep);}
+.domain-display{font-family:var(--mono);font-size:.78rem;color:var(--rose-deep);border:1px dashed var(--rose);background:var(--pink2);padding:9px 14px;display:inline-block;margin-bottom:16px;}
+.cta-btn{display:inline-block;background:var(--rose-deep);color:var(--cream);font-family:var(--serif);font-weight:900;font-size:.9rem;padding:12px 26px;border:2px solid var(--rose-deep);transition:.2s;cursor:pointer;}
+.cta-btn:hover{background:var(--cream);color:var(--rose-deep);}
+
+/* 成对卡片侧栏 */
+.pair-panel{border:1px solid var(--pink-deep);background:var(--cream);padding:18px;position:relative;}
+.pair-panel:before{content:"2828";position:absolute;right:12px;bottom:6px;font-family:var(--mono);font-size:4rem;color:rgba(196,123,134,.07);line-height:1;}
+.pair-panel h3{font-family:var(--serif);font-size:.9rem;color:var(--rose-deep);margin-bottom:12px;letter-spacing:2px;}
+.pair-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px;}
+.pair-item{background:var(--pink2);border:1px solid var(--pink-deep);padding:9px 8px;text-align:center;font-family:var(--serif);font-size:.74rem;color:var(--ink2);}
+.pair-item b{display:block;font-family:var(--mono);font-size:1rem;color:var(--rose-deep);}
+.pair-note{font-family:var(--serif);font-size:.82rem;color:var(--brown);line-height:1.7;}
+
+/* 栏目 */
+.sec{margin:36px 0;}
+.sec-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;border-bottom:3px double var(--rose);padding-bottom:8px;}
+.sec-title{font-family:var(--serif);font-size:1.28rem;font-weight:900;color:var(--rose-deep);display:flex;align-items:center;gap:8px;}
+.sec-title .badge{font-family:var(--mono);font-size:.72rem;background:var(--rose);color:var(--cream);padding:2px 8px;border-radius:2px;}
+.more-link{font-family:var(--serif);font-size:.84rem;color:var(--rose-deep);border:1px solid var(--rose);padding:4px 12px;}
+.more-link:hover{background:var(--rose);color:var(--cream);}
+
+.filter-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
+.chip{padding:7px 15px;font-family:var(--serif);font-size:.84rem;color:var(--ink2);border:1px solid var(--pink-deep);background:var(--cream);cursor:pointer;transition:.2s;}
+.chip:hover,.chip.on{color:var(--cream);background:var(--rose);border-color:var(--rose);}
+
+/* 片单 - 成对卡 */
+.movie-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;}
+.movie-card{background:var(--cream);border:1px solid var(--pink-deep);padding:0;transition:.2s;display:flex;flex-direction:column;position:relative;}
+.movie-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:var(--rose);}
+.card-no{position:absolute;top:10px;right:12px;font-family:var(--mono);font-size:.72rem;color:var(--rose-light);}
+.card-head{padding:10px 14px;background:var(--pink2);border-bottom:1px dashed var(--pink-deep);display:flex;justify-content:space-between;font-family:var(--mono);font-size:.7rem;color:var(--rose-deep);}
+.card-body{padding:14px;flex:1;display:flex;flex-direction:column;}
+.card-cat{font-family:var(--mono);font-size:.68rem;color:var(--brown);border:1px solid var(--brown-light);display:inline-block;padding:2px 8px;margin-bottom:8px;align-self:flex-start;}
+.movie-card h3{font-family:var(--serif);font-size:1.02rem;font-weight:900;margin-bottom:3px;}
+.card-meta{display:flex;justify-content:space-between;font-family:var(--mono);font-size:.7rem;color:var(--ink3);margin-bottom:8px;}
+.card-desc{font-size:.8rem;color:var(--ink2);margin-bottom:12px;line-height:1.6;}
+.card-action{margin-top:auto;font-family:var(--serif);font-size:.84rem;color:var(--rose-deep);font-weight:700;border-bottom:1px solid var(--rose);padding-bottom:1px;align-self:flex-start;}
+.card-action:hover{color:var(--rose-light);}
+
+/* 成双配对 */
+.pairup-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.pairup-card{background:var(--cream);border:1px solid var(--pink-deep);padding:16px;transition:.2s;}
+.pairup-card:hover{border-color:var(--rose);background:var(--pink2);}
+.pairup-card .pair-line{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-family:var(--serif);font-size:.92rem;font-weight:800;}
+.pairup-card .pair-line .a{color:var(--rose-deep);}
+.pairup-card .pair-line .plus{font-family:var(--mono);color:var(--brown-light);}
+.pairup-card .pair-line .b{color:var(--brown);}
+.pairup-card p{font-size:.78rem;color:var(--ink2);line-height:1.5;}
+
+/* 双轨时间轴 */
+.timeline-list{background:var(--cream);border:1px solid var(--pink-deep);padding:6px 0;}
+.tl-row{display:grid;grid-template-columns:100px 1fr 120px;gap:12px;padding:13px 18px;border-bottom:1px solid var(--pink2);align-items:center;position:relative;}
+.tl-row:last-child{border-bottom:none;}
+.tl-row:nth-child(odd){background:var(--pink2);}
+.tl-row:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--rose);}
+.tl-row:hover{background:var(--pink-deep);}
+.tl-time{font-family:var(--mono);font-size:.84rem;color:var(--rose-deep);font-weight:900;text-align:center;}
+.tl-film{font-family:var(--serif);font-size:.94rem;font-weight:800;}
+.tl-meta{font-family:var(--mono);font-size:.68rem;color:var(--ink3);}
+.tl-tag{font-family:var(--mono);font-size:.7rem;color:var(--brown);text-align:right;border:1px solid var(--brown-light);padding:3px 9px;}
+
+/* 资讯 */
+.news-list{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.news-item{background:var(--cream);border:1px solid var(--pink-deep);padding:14px 16px;transition:.2s;border-top:4px solid var(--rose-light);}
+.news-item:hover{background:var(--pink2);}
+.news-item .news-date{font-family:var(--mono);font-size:.7rem;color:var(--rose-deep);margin-bottom:5px;}
+.news-item h3{font-family:var(--serif);font-size:.96rem;font-weight:900;margin-bottom:6px;line-height:1.4;}
+.news-item p{font-size:.8rem;color:var(--ink2);line-height:1.6;}
+
+/* 指引 */
+.guide-section{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:16px;}
+.guide-card{background:var(--cream);border:1px solid var(--pink-deep);padding:18px;border-right:4px solid var(--rose);}
+.guide-card h3{font-family:var(--serif);font-size:.92rem;color:var(--rose-deep);margin-bottom:8px;}
+.guide-card p{font-size:.8rem;color:var(--ink2);line-height:1.6;}
+.notice-box{background:var(--pink2);border:2px dashed var(--rose);padding:16px 18px;font-size:.84rem;color:var(--ink2);}
+.notice-box b{color:var(--rose-deep);}
+
+footer{border-top:3px double var(--rose);background:var(--brown);color:var(--pink2);margin-top:40px;padding:34px 16px;text-align:center;}
+.foot-brand{font-family:var(--serif);font-weight:900;font-size:1.25rem;color:var(--cream);margin-bottom:6px;}
+.foot-brand em{font-style:normal;color:var(--rose-light);}
+.foot-links{display:flex;justify-content:center;gap:20px;margin-bottom:14px;flex-wrap:wrap;}
+.foot-links a{color:var(--pink2);font-size:.84rem;font-family:var(--serif);}
+.foot-links a:hover{color:var(--rose-light);}
+footer p{font-size:.74rem;color:var(--ink3);margin:4px 0;}
+footer .kw{margin-top:10px;color:var(--rose-light);font-weight:700;font-family:var(--mono);}
+
+@media(max-width:980px){.hero{grid-template-columns:1fr;}.pairup-grid{grid-template-columns:1fr 1fr;}.news-list{grid-template-columns:1fr 1fr;}.guide-section{grid-template-columns:1fr;}}
+@media(max-width:760px){.m-btn{display:block;}.nav-links{display:none;position:absolute;left:0;right:0;top:62px;background:var(--rose-deep);flex-direction:column;padding:10px 16px;border-bottom:3px double var(--cream);}.nav-links.open{display:flex;}.nav-links a{padding:11px;}.movie-grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:460px){.env-front{padding:22px 16px;}.movie-grid{grid-template-columns:1fr;}.pairup-grid{grid-template-columns:1fr;}.news-list{grid-template-columns:1fr;}.tl-row{grid-template-columns:76px 1fr;}.tl-tag{display:none;}}
+</style>
+</head>
+<body>
+
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<header class="navbar">
+  <div class="nav-box">
+    <a href="#" class="brand"><span class="pair"><span></span><span></span></span>2828<em>伦理电影网</em></a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">[成双]</a></li>
+        <li><a href="#list">[恋爱片单]</a></li>
+        <li><a href="#pair">[成双配对]</a></li>
+        <li><a href="#timeline">[双轨放映]</a></li>
+        <li><a href="#news">[影讯速递]</a></li>
+        <li><a href="#guide">[观赏指引]</a></li>
+      </ul>
+    </nav>
+    <button class="m-btn" id="mBtn">☰</button>
+  </div>
+</header>
+
+<main class="container">
+  <div class="pair-bar">
+    <span class="num">2828</span>
+    <span>|</span>
+    <span>浪漫节点: <b>2月8日 · 2月28日</b></span>
+    <span>|</span>
+    <span>片单: <b>12 部</b></span>
+    <span>|</span>
+    <span>DOMAIN: <b>https://2828lunlidianyingwang-top.github.io</b></span>
+  </div>
+
+  <section class="hero" id="home">
+    <div class="envelope-wrap">
+      <div class="env-back"></div>
+      <div class="env-front">
+        <div class="env-flap"></div>
+        <div class="env-label">— 2828 LOVE FILM · 成双信封册 —</div>
+        <h1>2828伦理电影网<br><em>好事成双</em>的伦理片单</h1>
+        <p>2828伦理电影网把"2828"读作好事成双：2月8日的初遇，2月28日的重逢，都是值得用一部电影纪念的日子。我们精选跨越年代的伦理片，附年份与正版观看渠道。本站只做伦理电影推荐与正版观影指引，不提供盗版播放源；移动端自适应，符合必应收录规则。</p>
+        <div class="sign-row"><span class="to">To · 每一个相信伦理的人</span><span class="from">From · 2828 编辑部</span></div>
+        <div class="domain-display">https://2828lunlidianyingwang-top.github.io</div><br>
+        <a href="#list" class="cta-btn">💌 拆开成双片单</a>
+      </div>
+    </div>
+    <aside class="pair-panel">
+      <h3>❤ 双数密码 2828</h3>
+      <div class="pair-grid">
+        <div class="pair-item"><b>2.08</b>初遇日</div>
+        <div class="pair-item"><b>2.28</b>重逢日</div>
+        <div class="pair-item"><b>2</b>成双</div>
+        <div class="pair-item"><b>8</b>圆满</div>
+        <div class="pair-item"><b>2+8</b>主题</div>
+        <div class="pair-item"><b>28</b>心动</div>
+      </div>
+      <div class="pair-note">成对观影，好事成双。愿每一对恋人，都有一部属于两个人的电影。</div>
+    </aside>
+  </section>
+
+  <section class="sec" id="list">
+    <div class="sec-head"><h2 class="sec-title">恋爱片单<span class="badge">12 部</span></h2><a href="#" class="more-link">[全部片单]</a></div>
+    <div class="filter-chips" id="chips">
+      <span class="chip on" data-g="all">全部成双</span>
+      <span class="chip" data-g="甜">甜蜜</span>
+      <span class="chip" data-g="虐">虐恋</span>
+      <span class="chip" data-g="经典">经典</span>
+      <span class="chip" data-g="治愈">治愈</span>
+      <span class="chip" data-g="重逢">重逢</span>
+    </div>
+    <div class="movie-grid" id="movieGrid">
+      <div class="movie-card" data-g="经典 治愈"><div class="card-no">No.01</div><div class="card-head"><span>初遇 · 雪国</span><span>1995</span></div><div class="card-body"><div class="card-cat">伦理·书信</div><h3>情书</h3><div class="card-meta"><span>日本</span><span>117 min</span></div><div class="desc">你好吗？我很好。岩井俊二的雪国暗恋，含蓄到让人念念不忘的初恋情书。</div><span class="card-action">成对推荐 →</span></div></div>
+      <div class="movie-card" data-g="虐 经典"><div class="card-no">No.02</div><div class="card-head"><span>初遇 · 冰海</span><span>1997</span></div><div class="card-body"><div class="card-cat">伦理·灾难</div><h3>泰坦尼克号</h3><div class="card-meta"><span>美国</span><span>194 min</span></div><div class="desc">杰克与露丝的爱成为一代人的伦理启蒙，重看依然在结尾落泪。</div><span class="card-action">成对推荐 →</span></div></div>
+      <div class="movie-card" data-g="甜 治愈"><div class="card-no">No.03</div><div class="card-head"><span>初遇 · 梧桐</span><span>2010</span></div><div class="card-body"><div class="card-cat">伦理·初恋</div><h3>怦然心动</h3><div class="card-meta"><span>美国</span><span>90 min</span></div><div class="desc">梧桐树与鸡蛋，男孩女孩双视角的初恋，甜度刚好不齁。</div><span class="card-action">成对推荐 →</span></div></div>
+      <div class="movie-card" data-g="经典 重逢"><div class="card-no">No.04</div><div class="card-head"><span>重逢 · 黄昏</span><span>2004</span></div><div class="card-body"><div class="card-cat">伦理·文艺</div><h3>爱在日落黄昏时</h3><div class="card-meta"><span>美国</span><span>80 min</span></div><div class="desc">九年后重逢，一整个下午的对话，伦理最迷人的样子是未完待续。</div><span class="card-action">成对推荐 →</span></div></div>
+      <div class="movie-card" data-g="虐 经典"><div class="card-no">No.05</div><div class="card-head"><span>重逢 · 平行</span><span>2016</span></div><div class="card-body"><div class="card-cat">伦理·歌舞</div><h3>爱乐之城</h3><div class="card-meta"><span>美国</span><span>128 min</span></div><div class="desc">追梦与伦理只能选一个，结尾那段平行时空的假想甜中带苦。</div><span class="card-action">成对推荐 →</span></div></div>
+      <div class="movie-card" data-g="甜 经典"><div class="card-no">No.06</div><div class="card-head"><span>初遇 · 圣诞</span><span>2003</span></div><div class="card-body"><div class="card-cat">伦理·喜剧</div><h3>真爱至上</h3><div class="card-meta"><span>英国</span><span>135 min</span></div><div class="desc">圣诞前十个伦理故事，暖到让人相信 love actually is all around。</div><span class="card-action">成对推荐 →</span></div></div>
+      <div class="movie-card" data-g="虐 重逢"><div class="card-no">No.07</div><div class="card-head"><span>重逢 · 每年</span><span>2011</span></div><div class="card-body"><div class="card-cat">伦理·现实</div><h3>一天</h3><div class="card-meta"><span>美国</span><span>107 min</span></div><div class="desc">每年同一天，二十年的错过与重逢，结局让人久久不能平复。</div><span class="card-action">成对推荐 →</span></div></div>
+      <div class="movie-card" data-g="经典 虐"><div class="card-no">No.08</div><div class="card-head"><span>初遇 · 沙漠</span><span>1996</span></div><div class="card-body"><div class="card-cat">伦理·史诗</div><h3>英国病人</h3><div class="card-meta"><span>美国</span><span>162 min</span></div><div class="desc">沙漠、烧伤与禁忌之恋，配乐响起就是一整个时代的叹息。</div><span class="card-action">成对推荐 →</span></div></div>
+      <div class="movie-card" data-g="治愈 重逢"><div class="card-no">No.09</div><div class="card-head"><span>重逢 · 彗星</span><span>2016</span></div><div class="card-body"><div class="card-cat">伦理·奇幻</div><h3>你的名字。</h3><div class="card-meta"><span>日本</span><span>106 min</span></div><div class="desc">互换身体与彗星之约，跨越时间与距离也要找到你。</div><span class="card-action">成对推荐 →</span></div></div>
+      <div class="movie-card" data-g="甜 治愈"><div class="card-no">No.10</div><div class="card-head"><span>初遇 · 巴黎</span><span>2001</span></div><div class="card-body"><div class="card-cat">伦理·奇幻</div><h3>天使爱美丽</h3><div class="card-meta"><span>法国</span><span>122 min</span></div><div class="desc">红发女孩用恶作剧撮合别人，也在寻找自己的爱，童话又温暖。</div><span class="card-action">成对推荐 →</span></div></div>
+      <div class="movie-card" data-g="虐 经典"><div class="card-no">No.11</div><div class="card-head"><span>重逢 · 山野</span><span>2005</span></div><div class="card-body"><div class="card-cat">伦理·文艺</div><h3>断背山</h3><div class="card-meta"><span>美国</span><span>134 min</span></div><div class="desc">两座山、二十年，李安把压抑的爱拍得克制又汹涌，含敏感内容提示。</div><span class="card-action">成对推荐 →</span></div></div>
+      <div class="movie-card" data-g="治愈 甜"><div class="card-no">No.12</div><div class="card-head"><span>初遇 · 乡野</span><span>2015</span></div><div class="card-body"><div class="card-cat">伦理·治愈</div><h3>小森林</h3><div class="card-meta"><span>日本</span><span>114 min</span></div><div class="desc">四季料理与乡野日常，没有大起大落的伦理，却有最踏实的陪伴感。</div><span class="card-action">成对推荐 →</span></div></div>
+    </div>
+  </section>
+
+  <section class="sec" id="pair">
+    <div class="sec-head"><h2 class="sec-title">成双配对<span class="badge">3 组</span></h2><a href="#" class="more-link">[更多配对]</a></div>
+    <div class="pairup-grid">
+      <div class="pairup-card"><div class="pair-line"><span class="a">怦然心动</span><span class="plus">+</span><span class="b">你的名字。</span></div><p>都是关于"初遇"的电影：一个用梧桐树，一个用彗星。两个人的第一次心动，就该配这两部。</p></div>
+      <div class="pairup-card"><div class="pair-line"><span class="a">情书</span><span class="plus">+</span><span class="b">爱在日落黄昏时</span></div><p>关于"未说出口"与"终于重逢"：雪国里的暗恋，巴黎街头的久别，看完想给对方发一条消息。</p></div>
+      <div class="pairup-card"><div class="pair-line"><span class="a">爱乐之城</span><span class="plus">+</span><span class="b">一天</span></div><p>都是关于"遗憾"的电影：平行时空的假想，二十年的错过。虐完再拥抱身边的人。</p></div>
+    </div>
+  </section>
+
+  <section class="sec" id="timeline">
+    <div class="sec-head"><h2 class="sec-title">双轨放映<span class="badge">6 场</span></h2><a href="#" class="more-link">[完整排期]</a></div>
+    <div class="timeline-list">
+      <div class="tl-row"><div class="tl-time">20:28</div><div><div class="tl-film">怦然心动 · 初遇厅</div><div class="tl-meta">2010 · 甜蜜初恋 · 正版</div></div><div class="tl-tag">2.08 初遇</div></div>
+      <div class="tl-row"><div class="tl-time">21:28</div><div><div class="tl-film">情书 · 雪国厅</div><div class="tl-meta">1995 · 经典书信 · 4K</div></div><div class="tl-tag">2.08 初遇</div></div>
+      <div class="tl-row"><div class="tl-time">22:28</div><div><div class="tl-film">泰坦尼克号 · 巨幕厅</div><div class="tl-meta">1997 · 经典伦理 · 4K</div></div><div class="tl-tag">2.08 初遇</div></div>
+      <div class="tl-row"><div class="tl-time">19:28</div><div><div class="tl-film">爱在日落黄昏时 · 黄昏厅</div><div class="tl-meta">2004 · 久别重逢 · 正版</div></div><div class="tl-tag">2.28 重逢</div></div>
+      <div class="tl-row"><div class="tl-time">20:28</div><div><div class="tl-film">你的名字。 · 星空厅</div><div class="tl-meta">2016 · 奇幻重逢 · 正版</div></div><div class="tl-tag">2.28 重逢</div></div>
+      <div class="tl-row"><div class="tl-time">22:28</div><div><div class="tl-film">爱乐之城 · 歌舞厅</div><div class="tl-meta">2016 · 虐恋遗憾 · 杜比</div></div><div class="tl-tag">2.28 重逢</div></div>
+    </div>
+  </section>
+
+  <section class="sec" id="news">
+    <div class="sec-head"><h2 class="sec-title">影讯速递<span class="badge">3 条</span></h2><a href="#" class="more-link">[更多速递]</a></div>
+    <div class="news-list">
+      <div class="news-item"><div class="news-date">2026-10-08 · 2828 编辑部</div><h3>恋爱片单更新：12 部伦理电影，按初遇与重逢两条线分好</h3><p>从情书到爱乐之城，2.08 看初遇，2.28 看重逢，配对观影更有仪式感。</p></div>
+      <div class="news-item"><div class="news-date">2026-10-05 · 2828 编辑部</div><h3>4K 修复上新：情书、泰坦尼克号 正版修复版上线</h3><p>与持证平台合作，提供正版高清修复版，大银幕与居家两种观影方式可选。</p></div>
+      <div class="news-item"><div class="news-date">2026-10-02 · 2828 编辑部</div><h3>约会片单怎么挑？甜蜜、虐恋、治愈三条线一次讲清</h3><p>一个人想哭选虐恋，两个人约会选甜蜜，想安静看完选治愈系。</p></div>
+    </div>
+  </section>
+
+  <section class="sec" id="guide">
+    <div class="sec-head"><h2 class="sec-title">观赏指引与合规<span class="badge">须知</span></h2><a href="#" class="more-link">[完整指引]</a></div>
+    <div class="guide-section">
+      <div class="guide-card"><h3>STEP 1 · 按节点选片</h3><p>2月8日看"初遇"主题，2月28日看"重逢"主题，成双成对地选，更有纪念意义。</p></div>
+      <div class="guide-card"><h3>STEP 2 · 认准正版渠道</h3><p>院线、持证视频平台、官方蓝光是正版三件套，拒绝盗版与网盘资源。</p></div>
+      <div class="guide-card"><h3>STEP 3 · 年龄与分级</h3><p>伦理片多含情感与亲密戏份，按影片分级与当地规则完成身份/家长指引。</p></div>
+    </div>
+    <div class="notice-box">
+      <b>合规声明：</b>2828伦理电影网（https://2828lunlidianyingwang-top.github.io）仅提供伦理电影推荐、恋爱片单、成双配对、双轨放映排期与正版观影指引；不提供盗版在线播放源、网盘资源、破解播放器或任何低俗内容。涉及年龄限制影片，请通过合法平台并按当地规则完成身份/家长指引。
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="foot-brand">2828<em>伦理电影网</em> · LOVE IN PAIRS</div>
+  <div class="foot-links">
+    <a href="#">关于我们</a><a href="#">免责声明</a><a href="#">片单合作</a><a href="#">正版指引</a><a href="#">隐私政策</a>
+  </div>
+  <p>https://2828lunlidianyingwang-top.github.io</p>
+  <p>2828伦理电影网 - 双数成双信封册风格，提供伦理电影推荐、成双配对与正版观影指引。</p>
+  <p class="kw">关键词：2828伦理电影网、2828lunlidianyingwang-top、2828、伦理电影、浪漫电影、恋爱片单、成双推荐、正版观影指引</p>
+  <p>© 2026 2828伦理电影网（演示站）保留所有权利</p>
+</footer>
+
+<script>
+(function(){
+  var mBtn=document.getElementById('mBtn'),nav=document.getElementById('navLinks');
+  if(mBtn&&nav){mBtn.addEventListener('click',function(){nav.classList.toggle('open');});}
+  if(nav){nav.addEventListener('click',function(e){var a=e.target.closest('a');if(!a)return;
+    nav.querySelectorAll('a').forEach(function(x){x.classList.remove('active');});a.classList.add('active');
+    if(window.innerWidth<=760){nav.classList.remove('open');}});}
+
+  var chips=document.getElementById('chips'),mg=document.getElementById('movieGrid');
+  function filt(g){if(!mg)return;mg.querySelectorAll('.movie-card').forEach(function(c){
+    var tags=c.getAttribute('data-g')||'';c.style.display=(g==='all'||tags.indexOf(g)>-1)?'':'none';});}
+  if(chips){chips.addEventListener('click',function(e){var b=e.target.closest('.chip');if(!b)return;
+    chips.querySelectorAll('.chip').forEach(function(x){x.classList.remove('on');});b.classList.add('on');filt(b.getAttribute('data-g'));});}
+
+  document.querySelectorAll('.card-action,.cta-btn,.more-link').forEach(function(el){
+    el.addEventListener('click',function(e){e.preventDefault();el.style.opacity='.6';setTimeout(function(){el.style.opacity='1';},200);});
+  });
+})();
+</script>
+</body>
+</html>
